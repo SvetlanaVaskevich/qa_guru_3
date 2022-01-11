@@ -1,6 +1,7 @@
 package ru.bk.vaskevich;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Book {
 
@@ -20,9 +21,9 @@ public class Book {
         stories.add(story);
     }
 
-    public void getStoriesFromBook(){
+    public void printStoriesFromBook(){
         System.out.print("This book " + this.title + " contains");
-        for (Story st:stories) {
+        for (Story st:stories){
             System.out.print(" " + st.storyTitle);
         }
         System.out.println();

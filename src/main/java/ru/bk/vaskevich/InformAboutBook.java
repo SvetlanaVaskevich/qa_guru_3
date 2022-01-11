@@ -9,13 +9,13 @@ public class InformAboutBook {
         System.out.println("The book is called " + book1.getTitle() + " and have " + book1.getPages() + " pages");
 
         Story story1 = new Story("Tolstoy","Anna Karenina");
-        System.out.println(story1.informAbourStory());
+        System.out.println(story1.getInformAboutStory());
 
         Story story2 = new Story("Chehov","Three sisters");
-        System.out.println(story2.informAbourStory());
+        System.out.println(story2.getInformAboutStory());
 
         book1.addStory(story1);
         book1.addStory(story2);
-        book1.getStoriesFromBook();
+        book1.printStoriesFromBook();
     }
 }

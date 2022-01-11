@@ -10,7 +10,7 @@ public class Story {
         this.storyTitle = storyTitle;
     }
 
-    public String informAbourStory() {
+    public String getInformAboutStory() {
         return "Story is called " + storyTitle +
                 " and author " + author;
     }
